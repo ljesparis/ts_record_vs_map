@@ -40,6 +40,11 @@ function mapGet(map: Map<string, number>, v: number): () => void {
 
 const tests = [10, 100, 1000, 10000, 100000, 1_000_000, 10_000_000];
 
+/*
+ * if you add 100_000_000 to the arraylist you'll reach map max size -> * RangeError: Map maximum size exceeded 
+ * https://stackoverflow.com/a/54466812
+ * tests.push(100_000_000)
+*/
 
 console.log("test start")
 
