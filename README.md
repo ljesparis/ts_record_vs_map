@@ -2,6 +2,8 @@
 
 I use typescript in my current job and i'm just learning about it a bit.
 
+I'm just checking which of them are better for data storage. Mostly because of several cases I have found in code reviews.
+
 
 ## Current PC
 
